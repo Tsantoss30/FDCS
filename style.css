@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Lacquer&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: #000000;
+    padding-top: 2%;
+}
+
+.cabecalho_subtitulo{
+    text-align: center;
+    font-family: "Lacquer", system-ui;
+    font-size: 2em;
+    color: #F6F6F6;
+}
+
+body{
+    background-color: #000000;
+}
+
+.apresentacao{
+    padding: 18% 0%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #000000;
+}
+
+.apresentacao_titulo{
+    margin-bottom: 8%;
+    font-family: "Lacquer", system-ui;
+    font-size: 8em;
+    color: #F6F6F6;
+}
+
+.apresentacao_subtitulo{
+    font-family: "Lacquer", system-ui;
+    font-size: 2em;
+    color: #F6F6F6;
+}
+
+strong{
+    color: #731DD8;
+    text-decoration: underline;
+}
+
+.sobre_o_album{
+    width: 70%;
+    padding: 0 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+    color: #F6F6F6;
+}
+
+.imagem_album{
+    width: 50%;
+    border: 10px solid #731DD8;
+    margin-right: 18px;
+}
+
+.sobre_mim_imagem{
+    margin-left: 18px;
+}
+
+.texto{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.texto_destaque{
+    color: #731DD8;
+    text-decoration: none;
+    font-family: "Lacquer", system-ui;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.links_navegacao{
+    background-color: #731DD8;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #000000;
+    font-family: 'Expletus Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.links_navegacao:hover{
+    border: 2px solid #731DD8;
+    background-color: #000000;
+    color: #731DD8;
+}
+
+.sobre_mim_subtitulo{
+    background-color: #9143eb15;
+    font-size: 2.3em;
+    font-family: "Lacquer", system-ui;
+    color: #731DD8;
+    margin-bottom: 30px;
+}
+
+.rodape{
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    font-family: "Lacquer", system-ui;
+    font-weight: bolder;
+    color: #731DD8;
+}
