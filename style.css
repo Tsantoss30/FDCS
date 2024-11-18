@@ -58,9 +58,17 @@ strong{
 }
 
 .imagem_album{
-    width: 50%;
+    width: 40%;
     border: 10px solid #731DD8;
     margin-right: 18px;
+}
+
+.sobre_o_album_subtitulo{
+    font-family: "Lacquer", system-ui;
+    font-size: 3em;
+    margin-bottom: 2%;
+    background-color: #9143eb15;
+    color: #731DD8;
 }
 
 .sobre_mim_imagem{
