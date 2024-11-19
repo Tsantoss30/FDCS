@@ -1,50 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Lacquer&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #000000;
+    color: #F6F6F6;
+    height: 100vh;
 }
 
 .cabecalho{
-    background-color: #000000;
     padding-top: 2%;
 }
 
 .cabecalho_subtitulo{
     text-align: center;
     font-family: "Lacquer", system-ui;
-    font-size: 2em;
+    font-size: 2rem;
     color: #F6F6F6;
+    letter-spacing: 10px;
 }
 
-body{
-    background-color: #000000;
-}
+
 
 .apresentacao{
-    padding: 18% 0%;
+    padding: 10% 0%;
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #000000;
 }
 
 .apresentacao_titulo{
-    margin-bottom: 8%;
+    margin-bottom: 5%;
     font-family: "Lacquer", system-ui;
-    font-size: 8em;
-    color: #F6F6F6;
+    font-size: 6rem;
+    letter-spacing: 10px;
 }
 
 .apresentacao_subtitulo{
     font-family: "Lacquer", system-ui;
-    font-size: 2em;
-    color: #F6F6F6;
+    font-size: 1.2rem;
 }
 
 strong{
     color: #731DD8;
+}
+
+.texto_destaque{
+    color: #731DD8;
     text-decoration: underline;
+}
+
+.apresentacao_links{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.apresentacao_links_navegacao{
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: "Lacquer", system-ui;
+    border: 2px solid #731DD8;
+    border-radius: 8px;
+    padding: 24px;
+    width: 15%;
+    text-align: center;
+}
+
+.apresentacao_subtitulo2{
+    padding-top: 5%;
+    color: #731DD8;
+    font-size: 2rem;
+    font-family: "Lacquer", system-ui;
 }
 
 .sobre_o_album{
@@ -58,7 +90,7 @@ strong{
 }
 
 .imagem_album{
-    width: 40%;
+    width: 35%;
     border: 10px solid #731DD8;
     margin-right: 18px;
 }
@@ -80,12 +112,6 @@ strong{
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
     text-align: justify;
-}
-
-.texto_destaque{
-    color: #731DD8;
-    text-decoration: none;
-    font-family: "Lacquer", system-ui;
 }
 
 .links{
@@ -121,11 +147,29 @@ strong{
     margin-bottom: 30px;
 }
 
-.rodape{
-    text-align: center;
-    padding: 20px;
-    font-size: 2em;
-    font-family: "Lacquer", system-ui;
-    font-weight: bolder;
-    color: #731DD8;
+@media (max-width: 1200px){
+
+    .cabecalho{
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .apresentacao_titulo{
+        letter-spacing: normal;
+        font-size: 2.5rem;
+    }
+
+    .apresentacao_subtitulo{
+        padding: 12% 0;
+    }
+
+    .apresentacao_links_navegacao{
+        width: 50%;
+    }
+
+    .apresentacao_subtitulo2{
+        padding-top: 30%;
+        font-size: 1rem;
+        align-items: center;
+    }
 }
